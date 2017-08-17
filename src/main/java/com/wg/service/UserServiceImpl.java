@@ -9,7 +9,7 @@ public class UserServiceImpl implements UserService {
 
 	//@Autowired
     private UserDao userDao;  
-  
+  //sskksksks
     public User selectUserById(Integer userId) {
         return userDao.selectUserById(userId);  
           
