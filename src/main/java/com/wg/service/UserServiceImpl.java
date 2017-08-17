@@ -11,9 +11,6 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;  
   
     public User selectUserById(Integer userId) {
-        /**
-         * ceshishissihsi
-         */
         return userDao.selectUserById(userId);  
           
     }  
